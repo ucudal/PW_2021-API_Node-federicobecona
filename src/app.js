@@ -63,7 +63,7 @@ app.post('/hacer-cookie', jsonParser, (req, res) => {
 
 app.use(function(req,res){
     res.status(404);
-    res.send('404 no fue encontrado');
+    res.send('404 - No fue encontrado');
 });
 app.listen(process.env.PORT || 3000, (a) => {
   console.log("Servidor disponible en http://localhost:3000")
