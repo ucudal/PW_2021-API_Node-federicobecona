@@ -19,7 +19,8 @@ var jsonParser = bodyParser.json();
 
 
 app.get('/experiencia-laboral', function(req, res) {
-  res.send([
+  res.send({
+    "experiencia-laboral":[
     {
       "empresa":"Tesla",
       "puesto":"CEO",
@@ -41,7 +42,7 @@ app.get('/experiencia-laboral', function(req, res) {
       "fechaInicio": new Date("2021-04-23"),
       "fechaFin": new Date("2015-07-04")
     } 
-  ]);
+  ]});
 });
 
 app.post('/hacer-cookie', jsonParser, (req, res) => {
@@ -56,8 +57,6 @@ app.post('/hacer-cookie', jsonParser, (req, res) => {
     }).send("Se ha enviado satisfactoriamente");
   }
 });
-
-
 
 
 
