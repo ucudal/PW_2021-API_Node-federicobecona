@@ -45,7 +45,8 @@ app.get('/experiencia-laboral', function(req, res) {
   ]});
 });
 
-app.post('/hacer-cookie', jsonParser, (req, res) => {
+
+app.post('/enviar-formulario', jsonParser, (req, res) => {
   let nombre = req.body.nombreContacto;
   if(!nombre){
     res.status(400)
