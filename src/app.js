@@ -53,8 +53,7 @@ app.post('/enviar-formulario', jsonParser, (req, res) => {
     res.send('Falta el nombre de contacto');
   }else{
     res.status(200)
-    res.cookie(`PW_2021-CV_Contacto`,JSON.stringify(
-    {nombreContacto: nombre}), {
+    res.cookie(`PW_2021-CV_Contacto`,JSON.stringify(nombre), {
       secure: true,
       httpOnly: true,
     })
