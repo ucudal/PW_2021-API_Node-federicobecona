@@ -48,13 +48,16 @@ app.get('/experiencia-laboral', function(req, res) {
 app.post('/hacer-cookie', jsonParser, (req, res) => {
   let nombre = req.body.nombreContacto;
   if(!nombre){
-    res.status(400).send('Falta el nombre de contacto');
+    res.status(400)
+    res.send('Falta el nombre de contacto');
   }else{
-    res.status(200).cookie(`PW_2021-CV_Contacto`,JSON.stringify(
+    res.status(200)
+    res.cookie(`PW_2021-CV_Contacto`,JSON.stringify(
     {nombreContacto: nombre}), {
       secure: true,
       httpOnly: true,
-    }).send("Se ha enviado satisfactoriamente");
+    })
+    res.send("Se ha enviado satisfactoriamente");
   }
 });
 

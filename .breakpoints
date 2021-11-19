@@ -3,9 +3,9 @@
     "src/app.js": [
       {
         "id": "50e73d4f-bd56-45e1-8bb6-743afafeb20e",
-        "line": 71,
-        "version": 3132,
-        "index": 1583
+        "line": 70,
+        "version": 3148,
+        "index": 1612
       }
     ],
     "test/app.spec.js": [
@@ -14,6 +14,12 @@
         "line": 9,
         "version": 7,
         "index": 279
+      },
+      {
+        "id": "10bc78b4-13b5-40b2-af47-2aa783e17a6c",
+        "line": 21,
+        "version": 7,
+        "index": 666
       }
     ]
   }
