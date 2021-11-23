@@ -3,9 +3,9 @@
     "src/app.js": [
       {
         "id": "50e73d4f-bd56-45e1-8bb6-743afafeb20e",
-        "line": 70,
-        "version": 3148,
-        "index": 1612
+        "line": 73,
+        "version": 3649,
+        "index": 1628
       }
     ],
     "test/app.spec.js": [
