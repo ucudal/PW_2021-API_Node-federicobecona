@@ -1,0 +1,26 @@
+{
+  "files": {
+    "src/app.js": [
+      {
+        "id": "50e73d4f-bd56-45e1-8bb6-743afafeb20e",
+        "line": 73,
+        "version": 3649,
+        "index": 1628
+      }
+    ],
+    "test/app.spec.js": [
+      {
+        "id": "4fb26d22-fa1e-4643-a1c6-57ba2a0f2c9d",
+        "line": 9,
+        "version": 7,
+        "index": 279
+      },
+      {
+        "id": "10bc78b4-13b5-40b2-af47-2aa783e17a6c",
+        "line": 21,
+        "version": 7,
+        "index": 666
+      }
+    ]
+  }
+}
