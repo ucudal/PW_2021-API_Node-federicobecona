@@ -24,21 +24,21 @@ app.get('/experiencia-laboral', function(req, res) {
     {
       "empresa":"Tesla",
       "puesto":"CEO",
-      "descripcion":"Hice autos eléctricos",
+      "descripcion":"Contribuí al desarrollo de los autos eléctricos más avanzados del mercado.",
       "fechaInicio": new Date("2015-07-04"),
       "fechaFin": new Date("2017-07-04")
     },
     {
       "empresa":"SpaceX",
       "puesto":"CEO",
-      "descripcion":"Hice cohetes espaciales",
+      "descripcion":"Contribuí al desarrollo de cohetes espaciales.",
       "fechaInicio": new Date("2017-07-04"),
       "fechaFin": new Date("2019-07-04")
     },
     {
       "empresa":"SolarCity",
       "puesto":"CEO",
-      "descripcion":"Diseñé paneles solares",
+      "descripcion":"Diseñé paneles solares de última tecnología.",
       "fechaInicio": new Date("2019-04-23"),
       "fechaFin": new Date("2021-11-24")
     } 
